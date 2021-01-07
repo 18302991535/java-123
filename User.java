@@ -24,4 +24,6 @@ private String password;
 private int roleId;
     @Column(name="iconURL",nullable = false,length = 50)
 private String iconURL;
+    @Column(name="address",nullable=false,length=32)
+    private String address;
 }
